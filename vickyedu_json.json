@@ -1,0 +1,83 @@
+
+{
+ "User":[   
+     {
+    "current_user":2,
+    "name" : "Vikram Rajesh",    
+    "user_role" : "admin",    
+    "memberships" :  "junior_physics",    
+    "activated" : "02/02/2020"
+    },
+    {    
+    "current_user":3,
+    "name" : "Leonardo Capman",    
+    "user_role" : "editor",    
+    "memberships" :"junior_physics",    
+    "activated" : "02/02/2020"
+    },   
+    {
+    "current_user":13,     
+    "name" : "Leonardo Capman",    
+    "user_role" : "subscriber",    
+    "memberships" :"junior_chemistry",    
+    "activated" : "11/18/2019"
+    }
+],
+"Membership":[
+    {   
+       "cId": "junior_physics",        
+        "duration" : "1 year",        
+        "allowed_categories" :{        
+        "11" : "Introduction To Physics",        
+        "12" : "Newtonian Physics",        
+        "13" : "Laws of Motion"
+     }
+    },       
+      {  
+        "cId": "junior_chemistry",        
+        "duration" : "3 months",        
+        "allowed_categories" : {        
+        "21" : "Introduction To Chemistry",        
+        "22" : "Molecular Chemistry",        
+        "23" : "Inorganic Chemistry"}
+      }],
+"Page":[{
+    "pageId":"1124",
+    "category_id": 11        
+        },
+         { 
+        "pageId": "1125",        
+        "category_id": 11},
+        {
+        "pageId":"1126",        
+        "category_id": 11},
+        {
+        "pageId":"1127",        
+        "category_id": 12},
+        {
+        "pageId":"1129",
+        "category_id": 12},
+        {
+        "pageId":"1130",
+        "category_id": 13},
+        {
+        "pageId":"1131",
+        "category_id": 21},
+        {
+        "pageId": "1132",
+        "category_id": 21},
+        {
+        "pageId": "1133",
+        "category_id": 21},
+        {
+        "pageId":"1134",
+        "category_id": 21},
+        {
+        "pageId":"1137",
+        "category_id": 22},
+      
+        {
+        "pageId":"1137",        
+        "category_id": 23}
+]
+}
